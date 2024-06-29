@@ -18,6 +18,8 @@ public:
     // Get current position of rotor
     char currentPosition() const;
 
+    char getNotch() const;
+
 private:
     // Wiring of the rotor (permutation of the alphabet)
     std::string wiring_;

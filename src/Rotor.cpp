@@ -28,6 +28,10 @@ char Rotor::currentPosition() const {
     return 'A' + position_;
 }
 
+char Rotor::getNotch() const {
+    return notch_;
+}
+
 // Helper function for forward rotor
 char Rotor::mapForward(char input) {
     int index = (input - 'A' + position_) % 26;

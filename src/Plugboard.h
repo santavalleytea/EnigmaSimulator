@@ -14,6 +14,6 @@ public:
 private:
     // Wiring of the plugboard
     std::unordered_map<char, char> wiring_;
-}
+};
 
 #endif // PLUGBOARD_H
